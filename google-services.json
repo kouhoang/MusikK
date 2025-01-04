@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023996198292",
+    "project_id": "music-app-7c4dd",
+    "storage_bucket": "music-app-7c4dd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023996198292:android:1f3b4c88915b930ed8a381",
+        "android_client_info": {
+          "package_name": "kouhoang.music"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1eH2afGNasaHnmrgxG9HfJI_zrhU5fbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

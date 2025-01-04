@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/online"
+        android:icon="@drawable/ic_all"
+        android:title="@string/title_online" />
+
+    <item
+        android:id="@+id/favourite"
+        android:icon="@drawable/ic_favourite"
+        android:title="@string/title_favourite" />
+
+    <item
+        android:id="@+id/device"
+        android:icon="@drawable/ic_device"
+        android:title="@string/title_device" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_settings" />
+
+</menu>

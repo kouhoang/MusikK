@@ -1,3 +1,75 @@
 <resources>
-    <string name="app_name">Misik</string>
+    <string name="app_name">Music</string>
+    <string name="app_name_description">( Music )</string>
+
+    <string name="nav_account">Account</string>
+    <string name="nav_settings">Settings</string>
+    <string name="title_info">Information</string>
+    <string name="nav_appearance">Appearance</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="nav_info">About</string>
+    <string name="nav_contact">Contact</string>
+
+    <string name="title_favourite">Favourite Songs</string>
+    <string name="title_online">Online Songs</string>
+    <string name="title_home">Home</string>
+    <string name="title_device">Device Songs</string>
+    <string name="title_player">Music Player</string>
+
+    <string name="button_all_name">Play All</string>
+    <string name="channel_name">Channel 1</string>
+    <string name="channel_description">This is channel 1</string>
+    <string name="dev_name">Kou Hoang</string>
+    <string name="dev">Kou</string>
+    <string name="dev_description">( Kou Hoang )</string>
+
+    <string name="hint_search">Song name, singer…</string>
+
+    <string name="version">Version 3.0</string>
+    <string name="app_info">This application is created to help you listen to music\n Copyright © by Kou Hoang</string>
+
+    <string name="theme_mode">Theme</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="name_hint">Name</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="you_have_an_account">You have an account?</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="send_reset_password">Send email verification</string>
+    <string name="text_send_email">Enter your email to reset password:</string>
+    <string name="continue_with_guest">Continue with Guest</string>
+    <string name="play_all">Play all</string>
+    <string name="view_all">View All</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="play_now">Play now</string>
+
+    <string name="empty_online_songs">No song in list. Please check your internet connection.</string>
+    <string name="empty_favourite_songs">No song in list. Please check your internet connection or sign in to see your favourites.</string>
+    <string name="empty_device_songs">No song in list. Please allow access photos and media on your device or add new song to your media storage.</string>
+
+    <string name="facebook">Facebook</string>
+    <string name="zalo">Zalo</string>
+    <string name="gmail">Gmail</string>
+    <string name="microsoft">Microsoft</string>
+
+    <string name="your_web_client_id">864398814382-td38lk28rgo5tcl5kn2semmt7tssvopj.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
 </resources>

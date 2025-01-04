@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_title_color">#C84773</color>
+    <color name="bg_toolbar_color">#151C4A</color>
+    <color name="text_color">#FFFFFFFF</color>
+    <color name="bg_color">#000000</color>
+    <color name="status_bar_color_login">#000000</color>
+    <color name="bg_edit_text_color">#2E2D2D</color>
+    <color name="bg_bottom_sheet_color">#373737</color>
+
+    <color name="home_bg_color">#03B9A8</color>
+    <color name="online_bg_color">#D44B1E</color>
+    <color name="favourite_bg_color">#CA1E58</color>
+    <color name="device_bg_color">#268EBD</color>
+    <color name="settings_bg_color">#C67C10</color>
+</resources>

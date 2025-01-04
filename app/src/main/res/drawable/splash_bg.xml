@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><!-- splash_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Add your desired layers here, e.g., an image or solid color -->
+    <item android:drawable="@drawable/img_bg_splash" />
+</layer-list>

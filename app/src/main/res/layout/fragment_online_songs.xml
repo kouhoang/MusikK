@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.kouhoang.music.ui.common.viewmodel.SongViewModel" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/BaseTextInputLayoutForSearch"
+            android:hint="@string/hint_search"
+            app:startIconDrawable="@drawable/ic_search"
+            android:enabled="@{viewModel.isLoadingOnline() ? false : true}">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_search"
+                style="@style/BaseEditTextForSearch"
+                android:inputType="text"
+                android:maxLength="100" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_list_songs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_color"
+            android:visibility="@{viewModel.isLoadingOnline() ? View.GONE : View.VISIBLE}" />
+
+        <TextView
+            android:id="@+id/tv_noti_list_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:text="@string/empty_online_songs"
+            android:textColor="@color/text_color"
+            android:textSize="17sp"
+            android:visibility="@{viewModel.isLoadingOnline() ? View.VISIBLE : View.GONE}" />
+
+
+    </LinearLayout>
+</layout>
